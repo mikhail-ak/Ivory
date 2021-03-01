@@ -1,4 +1,4 @@
-package sstu.diploma.ivory.security;
+package sstu.diploma.ivory.security.constant;
 
 public enum RoleEnum {
 

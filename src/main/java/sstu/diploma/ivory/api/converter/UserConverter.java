@@ -14,7 +14,7 @@ public class UserConverter implements Converter<UserData, UserEntity> {
                 .email(userData.getEmail())
                 .name(userData.getName())
                 .role(userData.getRole())
-                .password(userData.getPassword())
+                .passwordHash(userData.getPassword())
                 .enabled(userData.getEnabled()).build();
     }
 }
